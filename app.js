@@ -1,22 +1,6 @@
-// document.body.style.fontFamily = "Arial, sans-serif";
-// document.body.style.textAlign = "center";
-// document.body.style.marginTop = "50px"
-
-const container = document.createElement("div");
-container.id = "app";
-document.body.appendChild(container);
-
-container.innerHTML = `
- <h1> <!-- heading -->
-    Welcome to my Vanilla JS application
-  </h1>
-  <button
-    style="padding: 10px 20px; font-size: 16px; cursor: pointer;"
-    onclick="alert('Button has been clicked!')"
-  > <!-- button -->
-    Click Here Now
-  </button>
-`
+// const container = document.createElement("div");
+// container.id = "app";
+// document.body.appendChild(container);
 
 // const heading = document.createElement("h1");
 // heading.innerText = "Welcome to my Vanilla JS application";
@@ -33,3 +17,11 @@ container.innerHTML = `
 //   container.appendChild(message);
 // };
 // container.appendChild(button);
+
+const main = document.createElement("main");
+main.id = "home-main-tag";
+document.body.appendChild(main);
+
+const firstSection = document.createElement("section");
+firstSection.innerText = "This is the first section";
+main.appendChild(firstSection);
