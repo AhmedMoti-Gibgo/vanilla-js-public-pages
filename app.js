@@ -1,10 +1,17 @@
-document.body.style.fontFamily = "Arial, sans-serif";
-document.body.style.textAlign = "center";
-document.body.style.marginTop = "50px"
+// document.body.style.fontFamily = "Arial, sans-serif";
+// document.body.style.textAlign = "center";
+// document.body.style.marginTop = "50px"
+
+
 
 const container = document.createElement("div");
 container.id = "app";
 document.body.appendChild(container);
+
+// container.innerHTML = `
+//   <title>Vanilla JS App</title>
+//   <button onclick="alert('Hello!')">Click Me!</button>
+// `
 
 const heading = document.createElement("h1");
 heading.innerText = "Welcome to my Vanilla JS application";
