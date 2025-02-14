@@ -24,7 +24,7 @@ button.style.fontSize = "16px";
 button.style.cursor = "pointer";
 button.onclick = () => {
   const message = document.createElement("p");
-  message.innerText("Button has been clicked!")
+  message.innerText ="Button has been clicked!";
   container.appendChild(message);
 };
 container.appendChild(button);
